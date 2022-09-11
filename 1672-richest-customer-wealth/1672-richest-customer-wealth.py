@@ -1,5 +1,3 @@
-#Each array contains the amount of cash stored in three banks by a single person. 
-
 class Solution(object):        
     def maximumWealth(self, accounts: List[List[int]]) -> int:   
         maxWealth = 0   
