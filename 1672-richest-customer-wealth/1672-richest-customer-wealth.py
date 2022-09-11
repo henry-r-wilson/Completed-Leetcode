@@ -10,6 +10,8 @@ class Solution(object):
 
 #The process initially defines a value of maxWealth to equal 0. It then loops through all accounts using the for loop, and sums the amount within each account. It then compares the totalWealth with a stored maxWealth (initially 0, but each loop will be the highest value of totalWealth accumulated) and stores the highest value of maxWealth from all loops, and prints it out.
 
+#LINE BREAKDOWN
+
 #class Solution(object): - Creates a class in order to process the multple data points
     
 #def maximumWealth(self, accounts: List[List[int]]) -> int: - Defines accounts as a list of a list of integer numbers, or in this case, a collection (list #1) of wealth stored (integer number) in multiple banks (list #2)
