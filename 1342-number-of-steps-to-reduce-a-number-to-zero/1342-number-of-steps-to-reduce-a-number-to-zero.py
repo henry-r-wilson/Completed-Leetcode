@@ -13,7 +13,7 @@ class Solution:
 
 #Initially creating a step variable at 0. we state that while there is an exist number (i.e. a non-zero number), if that numbers remainder after dividing by 2 is 0 (an even number), then divide that number by 2 and make it the new value of num. If the remainder of the number is non-zero (an odd number), then subtract 1 from the number and make that the new number instead. For each step that num is still a number, add 1 to the amount of steps taken. When num isn't a number anymore (i.e = 0), stop the while loop and return the number of steps taken. 
 
-#EACH LINE BROKEN DOWN
+#LINE BREAKDOWN
 
 #class Solution: - Creates a class for the solutions
     
